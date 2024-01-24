@@ -28,13 +28,13 @@ A simple password generator built with React, using Tailwind CSS for styling.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/react-password-generator.git
+   git clone https://github.com/archit669/password-generator.git
    ```
 
 2. Change into the project directory:
 
    ```bash
-   cd react-password-generator
+   cd password-generator
    ```
 
 3. Install dependencies:
