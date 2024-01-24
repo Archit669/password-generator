@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef, useCallback } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa'; // Import icons from a library like react-icons
 import './App.css';
 
@@ -10,7 +10,7 @@ function App() {
   const [isCopying, setIsCopying] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  const passwordGenerator = () => {
+  const passwordGenerator = useCallback(() => {
     let str = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
     let pass = '';
 
@@ -28,7 +28,7 @@ function App() {
     }
 
     setPassword(pass);
-  };
+  }, [length, numberAllowed , CharacterAllowed, setPassword]);
 
   const passwordRef = useRef(null);
 
