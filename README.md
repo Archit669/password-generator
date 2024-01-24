@@ -1,8 +1,64 @@
-# React + Vite
+# React Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple password generator built with React, using Tailwind CSS for styling.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Generate random passwords with customizable options.
+- Copy generated passwords to the clipboard.
+- Toggle between light and dark mode for different visual preferences.
+
+## Demo
+
+[Live Demo](#) <!-- Add a link to the live demo if available -->
+
+![Demo GIF](/public/demo.png) <!-- Add a demo GIF or screenshots -->
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/react-password-generator.git
+   ```
+
+2. Change into the project directory:
+
+   ```bash
+   cd react-password-generator
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+1. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+3. Use the password generator by adjusting the options and copying the generated password.
+
+## Contributing
+
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
