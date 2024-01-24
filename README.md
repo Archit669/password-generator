@@ -21,7 +21,7 @@ A simple password generator built with React, using Tailwind CSS for styling.
 
 [Live Demo](#) <!-- Add a link to the live demo if available -->
 
-![Demo GIF](/public/demo.png) <!-- Add a demo GIF or screenshots -->
+![Demo GIF](/demo.png) <!-- Add a demo GIF or screenshots -->
 
 ## Installation
 
