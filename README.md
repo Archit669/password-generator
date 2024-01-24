@@ -19,7 +19,7 @@ A simple password generator built with React, using Tailwind CSS for styling.
 
 ## Demo
 
-[Live Demo](#) <!-- Add a link to the live demo if available -->
+[Live Demo](https://password-generator-123.vercel.app/) <!-- Add a link to the live demo if available -->
 
 ![Demo GIF](src/images/background.jpg) <!-- Add a demo GIF or screenshots -->
 
